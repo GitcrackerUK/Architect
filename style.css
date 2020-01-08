@@ -138,7 +138,20 @@ p{
   grid-template-columns: 1fr;
 }
 .main-card{
-  /* border: 1px solid black; */
+}
+/* services */
+/* section a */
+
+.services-list ul{
+  text-align: left;
+  /* list-style-type: none; */
+  /* font-weight: 400; */
+}
+#services-right{
+  margin-top: -16px;
+}
+#serv-img img{
+  padding:40px 20px 0px 20px;
 }
 @media(min-width: 990px) {
   .wrapper{
@@ -178,5 +191,16 @@ p{
     display: grid;
     grid-gap:50px;
     grid-template-columns: 1fr 1fr;
+  }
+  /* services */
+  .services-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #services-right{
+    margin-top: 0px;
+  }
+  #serv-img img{
+    padding:20px 150px 0px 150px;
   }
 }
