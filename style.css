@@ -130,6 +130,16 @@ p{
 .prop-right{
   grid-column: 2/3;
 }
+/* portfolio */
+/* section-b */
+#section-b{
+  grid-gap:30px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.main-card{
+  /* border: 1px solid black; */
+}
 @media(min-width: 990px) {
   .wrapper{
     display: grid;
@@ -163,6 +173,10 @@ p{
     margin-top: 25px;
     padding-right: 20px
   }
+  /* portfolio */
+  #section-b{
+    display: grid;
+    grid-gap:50px;
+    grid-template-columns: 1fr 1fr;
+  }
 }
-/* clients */
-/* section-a */
