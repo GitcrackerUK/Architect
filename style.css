@@ -1,0 +1,38 @@
+html{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 300;
+  font-size:
+}
+img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+h1,h2,h3{
+  margin:0;
+  padding: 1em 0;
+}
+p{
+  margin:0;
+  padding: 1em 0;
+}
+/* header */
+/* topmenu */
+#topmenu ul{
+  text-transform: uppercase;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,0);
+}
+.navbar-toggler:focus,.navbar-toggler:active {
+   outline: none !important;
+   box-shadow: none;
+}
