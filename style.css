@@ -25,8 +25,12 @@ p{
 }
 /* header */
 /* topmenu */
+#topmenu{
+  letter-spacing: 1px;
+}
 #topmenu ul{
   text-transform: uppercase;
+
 }
 .navbar-light .navbar-toggler {
     color: rgba(0,0,0,.5);
@@ -35,4 +39,16 @@ p{
 .navbar-toggler:focus,.navbar-toggler:active {
    outline: none !important;
    box-shadow: none;
+}
+/* logo */
+#logo{
+  color: #ba8748;
+  text-transform: capitalize;
+  margin-top: 20px;
+  display: grid;
+  justify-content: center;
+}
+.logo{
+  height: 200px;
+  width: 200px;
 }
