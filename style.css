@@ -30,7 +30,9 @@ p{
 }
 #topmenu ul{
   text-transform: uppercase;
-
+}
+.navbar-wrapper{
+  margin-top: 20px;
 }
 .bg-light {
     background-color: #fff !important;
@@ -164,8 +166,9 @@ p{
     grid-column: 3/4;
     margin-left:20px;
   }
-  .navbar .navbar-expand-lg .navbar-light .bg-light{
+  #navbarSupportedContent{
     margin-left: -65px;
+    margin-top: 126px;
   }
   #logo{
     grid-column: 1/3;
